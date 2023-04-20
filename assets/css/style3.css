@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:ital,wght@0,200;1,200&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #f1fbff;
+}
+
+.section-padding {
+    padding: 85px 0;
+}
+.gmail img {
+    display: inline-block;
+    transition: transform 0.2s ease
+}
+.gmail img:hover {
+    transform: translateY(-10px);
+}
+
+.row form {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 30px 50px 30px 0;
+}
+
+.no-account {
+    padding-top: 100px;
+}
